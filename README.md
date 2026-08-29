@@ -70,12 +70,12 @@ by Azure, AWS, and Oracle — all in the $104K-$111K range.
 
 ![Optimal skills — Python and Tableau highlighted](images/optimal_skills_dual_axis.png)
 
-Python and Tableau stand out from the rest of this list: while tools like Snowflake and 
-Azure command a slightly higher average salary, they appear in far fewer postings. Python 
-and Tableau strike the best balance — appearing in 230+ postings each while still paying 
-competitively (~$100K average) — making them lower-risk, high-value skills to prioritize. 
-SQL, despite topping the demand chart at 398 postings, pays somewhat less on average 
-(~$97K), reinforcing that demand and pay don't always move together.
+SQL and Excel sit at the top of the demand chart but near the bottom on pay (~$97K and 
+~$87K) — they're foundational, near-universal skills, which keeps demand high but doesn't 
+command a premium. Python and Tableau break that pattern: both see nearly as much demand 
+(230+ postings each) while still paying noticeably more (~$99-101K), making them the 
+standout "optimal" picks — broadly requested *and* well-compensated, unlike SQL/Excel 
+(high demand, lower pay) or niche tools like Snowflake and Azure (high pay, lower demand).
 
 ---
 
@@ -101,12 +101,10 @@ sensitive to one-off postings.
   spanning tech, telecom, and social media.
 - **SQL is essential.** It appears in more Data Analyst postings than any other skill 
   (7,291 postings) — by a wide margin over the next closest skill, Excel.
-- **Some in-demand skills pay less than expected.** SQL and Excel, despite topping the 
-  demand chart, rank near the bottom on average salary among skills with 30+ postings — 
-  a reminder that foundational skills are necessary but not always the highest-paying.
-- **Python and Tableau offer the best balance.** Both appear in 230+ postings while still 
-  commanding strong average salaries (~$100K), making them high-value, reliable skills 
-  to prioritize.
+- **High demand doesn't guarantee high pay.** SQL and Excel top the demand chart but rank 
+  near the bottom on salary among skills with 30+ postings.
+- **Python and Tableau offer both.** Strong demand (230+ postings) *and* competitive pay 
+  (~$100K) make them the clearest "optimal skills" picks in this analysis.
 - **Every finding here is backed by 30+ postings**, a stricter statistical bar than many 
   beginner analyses use, making these results more trustworthy.
 
