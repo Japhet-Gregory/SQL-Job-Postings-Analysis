@@ -41,4 +41,30 @@ I loaded this data locally into PostgreSQL and queried it using SQL in VS Code.
 
 ## Key Findings
 
-- **SQL is essential.** It
+- **SQL is essential.** It appears in more Data Analyst postings than any other skill 
+  (7,291 postings) — by a wide margin over the next closest skill, Excel.
+
+- **Some niche skills pay a premium.** Skills like Databricks, Go, and Snowflake command 
+  the highest average salaries, but appear in relatively few postings — likely reflecting 
+  specialized or senior roles rather than typical entry points.
+
+- **Python and Tableau offer the best balance.** Both appear in 200+ postings while still 
+  commanding strong average salaries (~$100K), making them high-value, lower-risk skills 
+  to prioritize compared to rarer, higher-paying niche tools.
+
+- **Data quality matters as much as the analysis.** During this project, I caught and 
+  filtered out several distortions — a single high-salary outlier from a low-posting-volume 
+  country, and skills whose "average salary" was based on just one or two job postings. 
+  Without these filters, the results would have been misleading.
+
+## What I Learned
+
+- How to write multi-table JOINs across fact and dimension tables to connect job 
+  postings, companies, and skills
+- Using CTEs to break complex logic into readable, reusable steps
+- The importance of filtering for statistical reliability (e.g. `HAVING count(...) >= N`) 
+  rather than trusting raw averages at face value
+- How small-sample distortions can silently skew results, and how to catch them 
+  before drawing conclusions
+- Structuring a project end-to-end: from raw data, to querying, to communicating findings
+
