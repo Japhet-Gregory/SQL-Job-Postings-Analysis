@@ -13,7 +13,7 @@ highest_paying_Data_Analyst_jobs as (
     company_id in (
         select company_id 
         from company_posting_counts 
-        where posting_count >5
+        where posting_count >=30
     )
     order by salary_year_avg desc
     limit 10

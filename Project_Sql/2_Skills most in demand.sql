@@ -7,5 +7,6 @@ inner join skills_dim
 where job_postings_fact.job_title_short
  = 'Data Analyst' and job_postings_fact.job_work_from_home = true
 group by skills_dim.skills
+having count(skills_job_dim.job_id) >=30  
 order by demand_count desc
 limit 10;
