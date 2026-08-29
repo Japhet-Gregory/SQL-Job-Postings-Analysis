@@ -70,13 +70,12 @@ by Azure, AWS, and Oracle — all in the $104K-$111K range.
 
 ![Optimal skills — Python and Tableau highlighted](images/optimal_skills_dual_axis.png)
 
-SQL and Excel sit at the top of the demand chart but near the bottom on pay (~$97K and 
-~$87K) — they're foundational, near-universal skills, which keeps demand high but doesn't 
-command a premium. Python and Tableau break that pattern: both see nearly as much demand 
-(230+ postings each) while still paying noticeably more (~$99-101K), making them the 
-standout "optimal" picks — broadly requested *and* well-compensated, unlike SQL/Excel 
+SQL and Excel sit at the top of the demand chart but near the bottom on pay (about $97K 
+and $87K) — they're foundational, near-universal skills, which keeps demand high but 
+doesn't command a premium. Python and Tableau break that pattern: both see nearly as much 
+demand (230+ postings each) while still paying noticeably more ($99K-$101K), making them 
+the standout "optimal" picks — broadly requested *and* well-compensated, unlike SQL/Excel 
 (high demand, lower pay) or niche tools like Snowflake and Azure (high pay, lower demand).
-
 ---
 
 ## A Note on Sample Size
