@@ -79,18 +79,10 @@ the standout "optimal" picks — broadly requested *and* well-compensated, unlik
 
 ## A Note on Sample Size
 
-Early drafts of this analysis used lower thresholds (5+ and 10+ postings) to filter out 
-unreliable averages. A few of those results sat right at the cutoff, meaning a single 
-outlier posting could still meaningfully swing the reported salary.
-
-To strengthen the analysis, I raised the threshold to **30+ postings** for both the 
-"skills by salary" and "optimal skills" queries — a commonly used rule of thumb in 
-statistics for when a sample average starts to reliably approximate the true underlying 
-value, rather than being skewed by a small handful of data points. Every finding in this 
-project now reflects that stricter bar, making the results more defensible and less 
-sensitive to one-off postings.
-
----
+Every finding in this analysis is backed by **30+ postings** per skill — a commonly used 
+rule of thumb in statistics for when a sample average starts to reliably reflect the true 
+underlying value, rather than being skewed by a small handful of outliers. This makes the 
+salary and demand figures throughout this project more defensible and trustworthy.
 
 ## Key Takeaways
 
