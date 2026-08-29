@@ -76,7 +76,6 @@ doesn't command a premium. Python and Tableau break that pattern: both see nearl
 demand (230+ postings each) while still paying noticeably more ($99K-$101K), making them 
 the standout "optimal" picks — broadly requested *and* well-compensated, unlike SQL/Excel 
 (high demand, lower pay) or niche tools like Snowflake and Azure (high pay, lower demand).
----
 
 ## A Note on Sample Size
 
