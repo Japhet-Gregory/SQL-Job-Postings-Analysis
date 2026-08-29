@@ -1,2 +1,44 @@
-TO DO
-Update this contents later
+# Remote-Data Analyst Job Market Insights
+
+## Overview
+This project analyzes real-world job posting data to answer a practical question: 
+what skills should someone learn to break into or grow in a Data Analyst career? 
+
+Using SQL, I explored ~788,000 job postings to uncover which skills are most in 
+demand, which pay the most, and which offer the best balance of both — with a 
+focus on remote-friendly roles.
+
+## Dataset
+The data comes from [Luke Barousse's Data Analyst job postings dataset](https://lukebarousse.com/), 
+covering job postings scraped from Google job search results. The dataset includes:
+
+- **job_postings_fact** – ~788,000 job postings with title, location, salary, and remote-work status
+- **company_dim** – company names and details
+- **skills_dim** – a lookup table of individual skills (e.g. SQL, Python, Excel)
+- **skills_job_dim** – a bridge table linking job postings to the skills they require
+
+I loaded this data locally into PostgreSQL and queried it using SQL in VS Code.
+
+## Tools Used
+- **SQL (PostgreSQL)** – core querying, joins, CTEs, aggregations
+- **VS Code** with SQLTools extension – writing and running queries
+- **Git & GitHub** – version control and project hosting
+
+## The Questions
+
+1. **What are the top 10 highest-paying Data Analyst jobs?**
+   Filtered to companies with multiple postings to avoid outlier salaries skewing results.
+
+2. **What skills are most in demand for Data Analyst roles?**
+   Focused on remote positions to reflect the growing remote job market.
+
+3. **Which skills are associated with the highest average salaries?**
+   Filtered to skills appearing in 5+ postings to ensure the averages are statistically meaningful.
+
+4. **What are the optimal skills to learn — high demand AND high pay?**
+   Combined demand and salary data, filtered to skills with 10+ postings, to surface the best 
+   skills to prioritize learning.
+
+## Key Findings
+
+- **SQL is essential.** It
