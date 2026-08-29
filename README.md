@@ -80,9 +80,9 @@ the standout "optimal" picks — broadly requested *and* well-compensated, unlik
 ## A Note on Sample Size
 
 Every finding in this analysis is backed by **30+ postings** per skill — a commonly used 
-rule of thumb in statistics for when a sample average starts to reliably reflect the true 
-underlying value, rather than being skewed by a small handful of outliers. This makes the 
-salary and demand figures throughout this project more defensible and trustworthy.
+rule of thumb in statistics. Once a sample reaches that size, its average is far less 
+likely to be skewed by a small handful of outliers. This makes the salary and demand 
+figures throughout this project more defensible and trustworthy.
 
 ## Key Takeaways
 
