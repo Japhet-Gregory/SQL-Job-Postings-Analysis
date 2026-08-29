@@ -109,3 +109,13 @@ skills to prioritize over rarer, higher-paying niche tools.
 - Structuring a project end-to-end: from raw data, to querying, to visualizing, 
   to communicating findings
 
+### A Note on Sample Size
+
+The thresholds used above (5+, 10+ postings) were chosen for simplicity. A more rigorous 
+statistical rule of thumb is **30+ postings** before an average reliably reflects the true 
+pattern rather than a few extreme values.
+
+Applying that stricter bar to the optimal skills list: **Python, Tableau, R, SAS, Snowflake, 
+Azure, AWS, and Oracle** clear 30+ postings and are comfortably reliable. The rest (Databricks, 
+Confluence, Hadoop, and others) are directionally useful but based on smaller samples — worth 
+investigating further rather than treating as settled.
