@@ -47,19 +47,6 @@ I loaded this data locally into PostgreSQL and queried it using SQL in VS Code.
 
 ![Top 10 highest-paying jobs](images/top_10_highest_paying_jobs.png)
 
-| Job Title | Company | Salary (avg) |
-|---|---|---|
-| Director of Analytics | Meta | $336,500 |
-| Associate Director – Data Insights | AT&T | $255,830 |
-| Director, Data Analyst – Hybrid | Inclusively | $189,309 |
-| ERM Data Analyst | Get It Recruit – IT | $184,000 |
-| DTCC Data Analyst | Robert Half | $170,000 |
-| Azure Data Python Consultant | Kelly Science, Engineering, Tech & Telecom | $170,000 |
-| Director of Data Analytics | A-Line Staffing Solutions | $170,000 |
-| Manager, Data Analyst | Uber | $167,000 |
-| Data Analyst | Get It Recruit – IT | $165,000 |
-| Principal Data Science Analyst | Mayo Clinic | $164,746 |
-
 Top salaries cluster around specific companies rather than a specific industry — 
 Meta, AT&T, and Uber sit alongside healthcare (Mayo Clinic) and staffing firms, 
 suggesting company choice can matter as much as skill choice when targeting top compensation.
@@ -68,38 +55,12 @@ suggesting company choice can matter as much as skill choice when targeting top 
 
 ![Skills in demand](images/skills_in_demand.png)
 
-| Skill | Demand Count |
-|---|---|
-| SQL | 7,291 |
-| Excel | 4,611 |
-| Python | 4,330 |
-| Tableau | 3,745 |
-| Power BI | 2,609 |
-| R | 2,142 |
-| SAS | 1,866 |
-| Looker | 868 |
-| Azure | 821 |
-| PowerPoint | 819 |
-
 SQL is the clear foundation skill — appearing in nearly 60% more postings than 
 the next closest skill (Excel), and over 8x more than niche tools like Looker or Azure.
 
 ### 3. Skills Associated with the Highest Salaries
 
 ![Skills by average salary](images/skills_by_salary.png)
-
-| Skill | Avg Salary | Demand Count |
-|---|---|---|
-| Pandas | $151,821 | 9 |
-| NumPy | $143,513 | 5 |
-| Databricks | $141,907 | 10 |
-| Atlassian | $131,162 | 5 |
-| Airflow | $126,103 | 5 |
-| Scala | $124,903 | 5 |
-| Crystal | $120,100 | 5 |
-| Go | $115,320 | 27 |
-| Confluence | $114,210 | 11 |
-| Hadoop | $113,193 | 22 |
 
 Several of the highest-paying skills (NumPy, Atlassian, Airflow, Scala, Crystal) 
 sit right at the 5-posting minimum threshold — a reminder that these averages, 
@@ -109,19 +70,6 @@ read as directional rather than definitive.
 ### 4. Optimal Skills — High Demand AND High Salary
 
 ![Optimal skills — Python and Tableau highlighted](images/optimal_skills_dual_axis.png)
-
-| Skill | Avg Salary | Demand Count |
-|---|---|---|
-| Databricks | $141,907 | 10 |
-| Go | $115,320 | 27 |
-| Confluence | $114,210 | 11 |
-| Hadoop | $113,193 | 22 |
-| Snowflake | $112,948 | 37 |
-| Azure | $111,225 | 34 |
-| BigQuery | $109,654 | 13 |
-| AWS | $108,317 | 32 |
-| **Python** | **$101,397** | **236** |
-| **Tableau** | **$99,288** | **230** |
 
 Python and Tableau stand out from the rest of this list: while niche tools like 
 Databricks command a higher average salary, they appear in far fewer postings. 
