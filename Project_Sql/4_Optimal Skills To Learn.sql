@@ -12,4 +12,4 @@ where job_postings_fact.job_title_short = 'Data Analyst'
 group by skills_dim.skills
 having count(skills_job_dim.job_id) >=30  -- add this
 order by avg_salary desc
-limit 25;
+limit 15;
