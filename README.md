@@ -41,6 +41,11 @@ I loaded this data locally into PostgreSQL and queried it using SQL in VS Code.
 
 ## Key Findings
 
+- **Top salaries cluster around specific companies, not just industries.** The highest-paying 
+  remote Data Analyst postings ranged from roughly $280K to $650K, with tech and AI-focused 
+  companies (e.g. Meta, Anthropic, OpenAI) appearing prominently — suggesting company choice 
+  can matter as much as skill choice when targeting top compensation.
+
 - **SQL is essential.** It appears in more Data Analyst postings than any other skill 
   (7,291 postings) — by a wide margin over the next closest skill, Excel.
 
