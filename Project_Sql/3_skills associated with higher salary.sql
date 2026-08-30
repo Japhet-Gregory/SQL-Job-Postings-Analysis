@@ -1,5 +1,5 @@
 select skills_dim.skills, 
-    round(avg(salary_year_avg),0) as avg_salary,
+    round(avg(salary_year_avg),0) as avg_yrl_salary,
     count(skills_job_dim.job_id) as demand_count  -- add this
 from job_postings_fact
 inner join skills_job_dim 
@@ -11,5 +11,5 @@ where job_postings_fact.job_title_short = 'Data Analyst'
     and salary_year_avg is not null
 group by skills_dim.skills
 having count(skills_job_dim.job_id) >=30  -- add this
-order by avg_salary desc
+order by avg_yrl_salary desc
 limit 20;
