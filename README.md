@@ -70,12 +70,10 @@ $101K, while office tools like Excel, Sheets, and Word trail behind at $82K-$89K
 
 ![Optimal skills — Python and Tableau highlighted](images/optimal_skills_dual_axis.png)
 
-SQL and Excel sit at the top of the demand chart but near the bottom on pay (about $97K 
-and $87K) — they're foundational, near-universal skills, which keeps demand high but 
-doesn't command a premium. Python and Tableau break that pattern: both see nearly as much 
-demand (230+ postings each) while still paying noticeably more ($99K-$101K), making them 
-the standout "optimal" picks — broadly requested *and* well-compensated, unlike SQL/Excel 
-(high demand, lower pay) or niche tools like Snowflake and Azure (high pay, lower demand).
+SQL and Excel top the demand chart but pay the least (about $97K and $87K) — they're 
+foundational, near-universal skills, so demand doesn't translate to a premium. Python and 
+Tableau break that pattern: nearly as much demand (230+ postings) but noticeably higher pay 
+($99K-$101K), making them the standout picks — broadly requested and well-compensated.
 
 ## A Note on Sample Size
 
