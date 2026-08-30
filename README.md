@@ -62,9 +62,9 @@ closest skill (Excel), and over 8x more than niche tools like Looker or Azure.
 
 ![Skills by average salary](images/skills_by_salary.png)
 
-With the sample-size threshold raised to 30+ postings, every skill on this list is backed 
-by a reliable amount of data. Snowflake leads at $112,948 (37 postings), followed closely 
-by Azure, AWS, and Oracle — all in the $104K-$111K range.
+Snowflake leads at $112,948, followed by Azure, AWS, and Oracle in the $104K-$111K range. 
+Most other skills — Python, Tableau, SQL, Power BI — cluster tightly between $97K and 
+$101K, while office tools like Excel, Sheets, and Word trail behind at $82K-$89K.
 
 ### 4. Optimal Skills — High Demand AND High Salary
 
